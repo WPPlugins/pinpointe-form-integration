@@ -1,0 +1,179 @@
+/**
+ * pinpointe Plugin Styles
+ */
+
+/* Reset all styles */
+.pinpointe-reset,
+.pinpointe-reset div,
+.pinpointe-reset span,
+.pinpointe-reset h1,
+.pinpointe-reset h2,
+.pinpointe-reset h3,
+.pinpointe-reset h4,
+.pinpointe-reset h5,
+.pinpointe-reset h6,
+.pinpointe-reset p,
+.pinpointe-reset a,
+.pinpointe-reset img,
+.pinpointe-reset fieldset,
+.pinpointe-reset form,
+.pinpointe-reset label,
+.pinpointe-reset legend,
+.pinpointe-reset table,
+.pinpointe-reset caption,
+.pinpointe-reset tbody,
+.pinpointe-reset tfoot,
+.pinpointe-reset thead,
+.pinpointe-reset tr,
+.pinpointe-reset th,
+.pinpointe-reset td,
+.pinpointe-reset button,
+.pinpointe-reset button:hover,
+.pinpointe-reset button:active,
+.pinpointe-reset button:focus {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    font-weight: normal;
+    color: #000;
+    background: 0;
+    vertical-align: baseline;
+}
+
+.pinpointe-reset table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-bottom: 0;
+    border: 0;
+}
+
+.pinpointe-reset ol,
+.pinpointe-reset ul {
+    list-style: none;
+}
+
+.pinpointe-reset caption,
+.pinpointe-reset th {
+    text-align: left;
+}
+
+.pinpointe-reset input,
+.pinpointe-reset label {
+    display: block;
+}
+
+.pinpointe-reset button,
+.pinpointe-reset input,
+.pinpointe-reset textarea,
+.pinpointe-reset select {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 100%;
+    outline: 0;
+    color: #000;
+}
+
+.pinpointe-reset input:focus,
+.pinpointe-reset textarea:focus {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.pinpointe-reset button,
+.pinpointe-reset input {
+    line-height: normal;
+}
+
+.pinpointe-reset th,
+.pinpointe-reset tr,
+.pinpointe-reset td {
+  border-top: 0;
+  border-bottom: 0;
+  border: 0 !important;
+}
+
+/* Form states */
+div.pinpointe_status_underlay {
+    background-color: #fff;
+}
+
+div.pinpointe_signup_processing {
+    background-color: #fff;
+    background-image: url(./../img/progress.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 54px;
+}
+
+div.pinpointe_signup_error {
+    background-color: #fff;
+    display: table;
+    overflow: hidden;
+    text-align: center;
+    min-height: 54px;
+    width: 100%;
+}
+
+div.pinpointe_signup_error div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px 10px;
+    color: #ee9393;
+    font-size: 14px;
+}
+
+div.pinpointe_signup_success {
+    background-color: #fff;
+    display: table;
+    overflow: hidden;
+    text-align: center;
+    min-height: 54px;
+    width: 100%;
+}
+
+div.pinpointe_signup_success div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px 10px;
+    color: #6fb679;
+    font-size: 14px;
+}
+
+div.pinpointe_lock_box {
+    padding: 5% 0 10% 0;
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: rgba(248,248,248,.2);
+}
+
+div.pinpointe_lock_content {
+    width: 80%;
+}
+
+div.pinpointe_lock_title {
+    display: block;
+    padding: 0 10% 20px 10%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #232323;
+}
+
+div.pinpointe_lock_message {
+    display: block;
+    padding: 0 10% 40px 10%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+}
